@@ -1,0 +1,299 @@
+*{
+    margin: 0%;
+    color: white;
+    text-decoration: none;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+img{
+    object-fit: contain;
+}
+.cabecera {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.TLogo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.linksHeader {
+    font-size: 1.5rem;
+    display:flex;
+    width: 30rem;
+    justify-content: space-evenly;
+}
+.linksHeader a:hover{
+    border-bottom: 3px solid #d8a054;
+}
+.TStart {
+    margin-top: 8rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: "";
+    font-size: 5rem;
+    font-weight: bold;
+}
+.img1 {
+    margin: auto;
+    width: 30rem;
+    margin-top: 8rem;
+}
+.withOur {
+    margin: auto;
+    margin-top: 8rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: "";
+    font-size: 5rem;
+    font-weight: bold;
+}
+.secction2 {
+    margin-top: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.seccion2P2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40rem;
+}
+.guion {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-right:1rem ;
+}
+.secction2P2_2 {
+    text-align: start;
+}
+.OurStory {
+    font-family: "";
+    font-size: 4rem;
+    font-weight: bold;
+}
+.learnMore {
+    font-size: 1rem;
+    padding: 0.5rem;
+    background-color: #d8a054;
+    width: 8rem;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 1rem;
+}
+.learnMore1 {
+    font-size: 1rem;
+    padding: 0.5rem;
+    background-color: #d8a054;
+    width: 8rem;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.secction3 {
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.secction3P1 {
+    width: 25rem;
+}
+.lorem1{
+    margin: 2rem 0;
+}
+.TPerfect {
+    font-weight: bold;
+    font-family: "";
+    font-size: 3rem;
+    text-align: start;
+}
+.img3 {
+    width: 25rem;
+}
+.TProducts {
+    font-size: 4rem;
+    font-family: "";
+    font-weight: bold;
+    text-align: start;
+    margin:0 3rem ;
+    margin-top: 2rem;
+}
+.cafes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+}
+.cafe1 {
+    border: 2px solid #d8a054;
+    border-radius: 5px;
+    width: 20rem;
+    padding-bottom:2rem;
+    margin-top: 3rem;
+}
+.imgS4 {
+    width: 5rem;
+    margin-top: -2.5rem;
+}
+.mocha {
+    font-weight: bold;
+    margin: 2rem 0;
+}
+.TipoCafe {
+    margin: auto;
+    width: 6rem;
+    padding-bottom: 2rem;
+}
+.TipoCafe p{
+    text-align: start;
+    margin: 1rem 0;
+}
+.secction5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin:0 15vw;
+}
+.lineaA2 {
+    width: 30vw;
+    height: 3px;
+    background-color: #d8a054;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+.lineaA {
+    width: 30vw;
+    height: 3px;
+    background-color: #d8a054;
+    margin: auto;
+    margin-top: 5rem;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    margin-top: 2rem;
+}
+.titulo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.titulo span{
+    color: #d8a054;
+}
+.end {
+    margin-top: 1rem;
+}
+.end span{
+    color: #d8a054;
+}
+.menu{
+    width: 2rem;
+    display: none;
+}
+#check{
+    display: none;
+}
+.linksMenu{
+    display: none;
+    flex-direction: column;
+    align-items: end;
+}
+.linksMenu a:hover{
+    border-bottom: 3px solid #d8a054;
+}
+#check:checked ~ .linksMenu{
+    display: flex;
+}
+.cabecera label{
+    display: none;
+}
+@media only screen and (max-width:777px){
+    .cabecera label{
+        display: block;
+    }
+    .TStart{
+        font-size: 3rem;
+    }
+    .img1{
+        width: 15rem;
+    }
+    .withOur{
+        font-size: 3rem;
+    }
+    .img2{
+        display: none;
+    }
+    .OurStory{
+        font-size: 3rem;
+    }
+    .TPerfect{
+        font-size: 2rem;
+    }
+    .img3{
+        width: 13rem;
+    }
+    .TProducts{
+        font-size: 3rem;
+    }
+    .cabecera{
+        justify-content: space-between;
+    }
+    .menu{
+        display: block;
+    }
+    .linksHeader{
+        display: none;
+    }
+}
+@media only screen and (max-width:500px){
+    .seccion2P2{
+        width: 23rem;
+    }
+    .secction3P1{
+        width: 20rem;
+    }
+    .TStart{
+        font-size: 2rem;
+    }
+    .secction5{
+        margin: auto;
+    }
+    .TProducts{
+        margin: auto;
+        font-size: 2rem;
+        margin-top: 3rem;
+        text-align: center;
+    }
+    .cafe1{
+        width: 17rem;
+    }
+    .seccion2P2{
+        width: 18rem;
+    }
+    .img3{
+        display: none;
+    }
+}
