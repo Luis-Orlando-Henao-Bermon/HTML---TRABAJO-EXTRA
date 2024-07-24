@@ -12,6 +12,7 @@ body{
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    overflow-x: hidden;
 }
 img{
     object-fit: contain;
